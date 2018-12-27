@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: springboot-rabbitmq
+    rabbitmq:
+        host: 10.25.8.115
+        port: 5672
+        username: sdt
+        password: sdt108
+        #发布确认
+        publisher-confirms: true
+        virtual-host: /
+        src-domain: domain_115
